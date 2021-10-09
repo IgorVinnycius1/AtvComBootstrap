@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Equipe Rocket - Conteúdos relacionados</title>
+    
+    <!-- favicon -->
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        .content{
+            background-color: white;
+
+        }
+        .text {
+            margin: 50px;
+          
+          padding: 8px;
+          
+        }
+        
+        .title {
+            margin-top: 1vw;
+        font-size: 5vw;
+          text-align: center;
+          text-transform: uppercase;
+          color: dodgerblue;
+        }
+        
+        .text p {
+          text-indent: 50px;
+          text-align: justify;
+          letter-spacing: 3px;
+        }
+        
+        a {
+          text-decoration: none;
+          color: #008CBA;
+        }
+        </style>
+</head>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- search popup start-->
+    
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
+
+    <!-- header start -->
+    <div class="navbar-area">
+
+
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <div class="logo d-lg-none d-block">
+                        <a class="main-logo" href="index.html"><img src="https://lh3.googleusercontent.com/x8PYAIsoWztucW6OizruC43gtLQnuVJfAHbv8UA-U6uOutcP_QZchSnWocTtIA-SNFqTIxWqgCbzU1KNlSe-0ENOvjBd5ZccuG8emrLVAKr0yJDDTKB2ncKHHR5BMtCCI_ReRGNzN2ZPIUG2deSvFDkLP3KCUVsruFzFRvlB_XRk8RBzuaol5G8fjAVTYA2Jt5OMlBKyYSXQeiqja1dvGG0LEDeV13crQMIxf7-ctJPEBqaETwgc3hI4qUzxuJ5JaVedMz4nTESLJSiFO7YNIeHQQ6sphd8v-QGLuLSAfChdsboBXOIFRvki3VYojeDkRpFlzFE0yCn_iJ2LH0GphsXNzm21YiWX8xF8ZKHnj7G-uTUXICxT41RBZ6UPv_2mhTtv92fJJxWD6wAFLNKtY1I_wC-IcCh82a7PuEypVvXP48FupOlxwGGf8p-y46W35U8Mh9NTilqMoeGniDWeSsHI_h7xUGAnxx0kpLK3dd38ob3ifYUQGzEopgtScwQ5jCFmqnDzijqrEitRuNVgAjtOLnTIlDYE9jQgTK2a47uB0LbZH5mbtgzn5ZshrCOLIZ42DRMZAbejtFMHI97av8BSqQMVMH4tsm2e7Pp2K9Z4gb8SWNZCT4jto6kMscq3FT1EbWm4dVA8enyD42Dj1UNodBy4uNkArO9ArKEBGKYfp3Owg3MS5C747NRutRfVE18e0ErOo24D16FX-tqHbMHS=w191-h70-no?authuser=0" alt="img"></a>
+                    </div>
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse nav-right-part nav-right-part-desktop" id="nextpage_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li>
+                            <div class="col-xl-6 col-lg-5 align-self-center">
+                                <div class="logo text-md-left text-center">
+                                    <a class="main-logo" href="index.html"><img src="https://lh3.googleusercontent.com/x8PYAIsoWztucW6OizruC43gtLQnuVJfAHbv8UA-U6uOutcP_QZchSnWocTtIA-SNFqTIxWqgCbzU1KNlSe-0ENOvjBd5ZccuG8emrLVAKr0yJDDTKB2ncKHHR5BMtCCI_ReRGNzN2ZPIUG2deSvFDkLP3KCUVsruFzFRvlB_XRk8RBzuaol5G8fjAVTYA2Jt5OMlBKyYSXQeiqja1dvGG0LEDeV13crQMIxf7-ctJPEBqaETwgc3hI4qUzxuJ5JaVedMz4nTESLJSiFO7YNIeHQQ6sphd8v-QGLuLSAfChdsboBXOIFRvki3VYojeDkRpFlzFE0yCn_iJ2LH0GphsXNzm21YiWX8xF8ZKHnj7G-uTUXICxT41RBZ6UPv_2mhTtv92fJJxWD6wAFLNKtY1I_wC-IcCh82a7PuEypVvXP48FupOlxwGGf8p-y46W35U8Mh9NTilqMoeGniDWeSsHI_h7xUGAnxx0kpLK3dd38ob3ifYUQGzEopgtScwQ5jCFmqnDzijqrEitRuNVgAjtOLnTIlDYE9jQgTK2a47uB0LbZH5mbtgzn5ZshrCOLIZ42DRMZAbejtFMHI97av8BSqQMVMH4tsm2e7Pp2K9Z4gb8SWNZCT4jto6kMscq3FT1EbWm4dVA8enyD42Dj1UNodBy4uNkArO9ArKEBGKYfp3Owg3MS5C747NRutRfVE18e0ErOo24D16FX-tqHbMHS=w191-h70-no?authuser=0" alt="img"></a>
+                                </div>
+                            </div>
+                        </li>                          
+                        <li class="current-menu-item">
+                            <a href="index.html">Notícias</a>
+                        </li>                        
+                        <li class="current-menu-item">
+                            <a href="dicas.html">Dicas</a>
+                        </li>
+                        <li class="current-menu-item">
+                            <a href="informacoes.html">Mais</a>
+                        </li>
+                        <li class="current-menu-item">
+                            <a href="#footer">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- banner area start -->
+    <div class="banner-area banner-inner-1 bg-black" id="banner">
+        <!-- banner area start -->
+        <div class="banner-inner pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="thumb after-left-top">
+                            <img src="https://i.ytimg.com/vi/wGXX-Nl8owU/maxresdefault.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="banner-details mt-4 mt-lg-0">
+                            <h2>Um pouco mais sobre o comercio local.</h2>
+                            <p>Aqui você pode encontrar algumas informações a mais sobre o comércio local e como alguns comerciantes se encontram atualmente durante a pandemia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        <!-- banner area end -->
+        <div class="text">
+            <h1 class="title">O comércio local e os novos empreendedores criativos</h1>
+            <p>Nada mais será como antes. A pandemia mudou a vida das pessoas, no mundo todo, durante o ano de 2020. Evidenciou desigualdades, problemas e conflitos. Mostrou que o que realmente importa é muito simples, e cabe em uma palavra muito pronunciada durante toda essa crise: saúde. Em todos os sentidos. Física, mental, emocional, financeira. Provou que as pessoas são solidárias, pois foram muitas as que arregaçaram as mangas e, com suas máscaras cobrindo os rostos, ajudaram comunidades e grupos fragilizados nesse ano. Os paradigmas caíram por terra e várias lições foram aprendidas.
+            </p>
+            <p>
+                As pessoas se uniram para se fortalecer, e isso apareceu também no mundo dos negócios. De acordo com uma pesquisa feita em maio pela Accenture, consultoria empresarial, a crise pandêmica levou as pessoas a buscar mais produtos e serviços em suas próprias regiões, recorrendo a lojas e comércios locais. Além da procura por segurança sanitária e rapidez, com uma mobilidade descarbonizada, que evita deslocamentos de carro ou de transporte coletivo, esse movimento demonstra, de acordo com Carlos Fan, diretor da consultoria, uma maior empatia, que se traduz em apoio aos empreendedores locais.
+            </p>
+            <p>
+                Entre os entrevistados, 80% afirmaram que pretendem continuar consumindo em locais mais próximos a suas casas mesmo após a pandemia passar.
+
+                O Sebrae também ajudou a mobilizar a sociedade com campanhas para estimular as compras de pequenos comerciantes, apoiando as micro e pequenas empresas. Em todo o país, a campanha Compre do Pequeno, criada pelo Sebrae, ajudou a criar estratégias e alavancar as vendas de negócios locais e produções familiares e artesanais. 
+            </p>
+            <p>
+                Afinal, é de suma importância valorizar pequenos empreendedores no Brasil – eles são responsáveis por mais da metade dos empregos formais no país. Quando a gente prioriza fazer as compras no empório familiar da esquina ou experimentar os pães artesanais vendidos por um comerciante vizinho (em vez de recorrer aos pães da grande rede), estamos impulsionando a economia e contribuindo com um setor que gera 52% dos empregos com carteira assinada no país, nada menos que 17 milhões postos de trabalho.
+            </p>
+
+            <p>
+                O dinheiro permanece na região, ajudando a florescer novos negócios e gerando mais empregos. A comunidade se fortalece e os comerciantes podem, assim, investir em inovação e qualificação de seus times. 
+            </p>
+
+            <p>
+                Em entrevista à revista britânica Dezeen, a holandesa Li Edelkoort, uma das mais brilhantes analistas de tendências atuais, reforçou a importância de valorizar “os pequenos próximos da gente” nessa fase e na pós-pandemia. Segundo ela, o que estamos vivendo não é apenas uma crise sanitária e financeira, mas uma crise de ruptura. “A pandemia ofereceu uma página em branco para um novo começo a longo prazo, mas primeiro vai desencadear ‘uma quarentena de consumo’, que causará dificuldades econômicas, enquanto irá fazer as pessoas se concentrarem em prazeres simples como ler e cozinhar”, ela disse. 
+            </p>
+
+            <p>
+                Para Li, não há cura imediata nesse desastre. “Teremos que nos reinventar assim que o vírus estiver sob controle. E é aqui que tenho esperança: haverá outro e melhor sistema, a ser implementado com mais respeito pelo trabalho e pelas condições humanas. No final, seremos forçados a fazer o que já deveríamos ter feito em primeiro lugar. O impacto do vírus será cultural e crucial para a construção de um mundo alternativo e profundamente diferente. Portanto, se formos sábios – o que infelizmente agora sabemos que não somos – recomeçaremos com novas regras, permitindo que os países valorizem suas próprias culturas e seus know-hows específicos, ajudando a desenvolver os saberes locais, com empreendedores artesanais e criativos, onde o trabalho manual é valorizado acima de tudo”, declarou a pensadora.
+            </p>
+
+            <p>
+                O crescimento do comércio e do empreendedorismo locais tem várias vantagens, entre elas a pegada ambiental, que se torna muito mais leve e sustentável. Não há grandes movimentos pendulares, que marcam a mobilidade urbana em cidades como São Paulo. Deslocamentos maciços de pessoas de uma região a outra, que geram congestionamentos, stress e poluição do ar e sonora. 
+            </p>
+
+            <p>O crescimento do comércio e do empreendedorismo locais tem várias vantagens, entre elas a pegada ambiental, que se torna muito mais leve e sustentável. Não há grandes movimentos pendulares, que marcam a mobilidade urbana em cidades como São Paulo. Deslocamentos maciços de pessoas de uma região a outra, que geram congestionamentos, stress e poluição do ar e sonora. </p>
+
+            <p>
+                Um sistema que se traduz em maior qualidade de vida, menos emissões de carbono, ganho de tempo e também de dinheiro. Quando uma comunidade olha e se volta para o seu próprio bairro, ela se torna mais saudável e potente, pois consegue agregar inteligências e expertises diversas, que se juntam para crescer. É a vitória da coletividade e da criatividade. 
+            </p>
+
+            <p>
+                Este conceito inspirou o São Paulo São a lançar o São Conexões, que como o próprio nome aponta, irá impulsionar os vínculos saudáveis e produtivos em São Paulo, por meio de seus energéticos e ricos centros de produção de cultura, valores, ideais e produtos: os bairros. Promovendo o envolvimento de empreendedores criativos, empresas e cidadãos com causas e negócios em seus bairros, será possível ajudar a potencializar a economia e o turismo em várias regiões da metrópole.
+            </p>
+
+            <p>Texto do site: <a href="https://saopaulosao.com.br/nossos-conexoes/5167-o-comércio-local-e-os-novos-empreendedores-criativos.html#">São Paulo São</a></p>
+          </div>
+       
+   </div>
+
+    
+    <div id="footer" class="footer-area bg-black pd-top-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget">
+                        <h5 class="widget-title">Sobre nós</h5>
+                        <div class="widget_about">
+                            <p>Somos um grupo com o nome "Rocket" que dejesa auxiliar comerciantes locais a crescerem e a fazerem seus estalecimentos decolarem! Por isso separamos algumas notícias e dicas, pensando na visibilidade dos mesmos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget widget_tag_cloud">
+                        <h5 class="widget-title">Palavras Chaves</h5>
+                        <div class="tagcloud">
+                            <a >Comércio</a>
+                            <a >Visibilidade</a>
+                            <a >Notícias</a>
+                            <a >Comércios</a>
+                            <a >Vendedores</a>
+                            <a >Lojas</a>
+                            <a >Crescimento</a>
+                            <a >Evolução</a>
+                            <a >Iniciativas</a>
+                            <a >Fiscalização</a>
+                            <a >Negócios</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget">
+                        <h5 class="widget-title">CONTACTS</h5>
+                        <ul class="contact_info_list">
+                            <li><i class="fa fa-map-marker"></i> 829 Cabell Avenue Arlington, VA 22202</li>
+                            <li><i class="fa fa-phone"></i> +088 012121240</li>
+                            <li><i class="fa fa-envelope-o"></i> Info@website.com <br> Support@mail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="widget widget_recent_post">
+                        <h5 class="widget-title">Últimas notícias</h5>
+                        <div class="single-post-list-wrap">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="https://lh3.googleusercontent.com/6yRrtbH1AVjARKQwbNQS8BP4cKH-nj7r3AQlJ4i8PKj4iTbIJ8Vb5A5At8kVrsXGjkJCCc6nT2Doxk_YxMcOi6upiwE8XAEtZHpmDC7w7yqq_kHDDr5MZq90-7p4B9Y7DWlmL_WoIhm_9xxv6bnxFslrBaaPwZwY_CgcuyqCQRmjp6RW_3OS-m6Lqu1JAwr6jvInSeIFJo3nAQe-CPxB2ZJsLqH4Xc0MtvCY_Z98ln9pHv1z6zfeWYCrBpBIT3ssd0S8rRwKdNJUx-3c6EvNLsstsfl7OYqN9A3-2wKmRmT2gRBdA84GVcHXliRr73jSSejxdaNcWSZiufu5FamtDzrcyU50IPQjyHbP2XZq1nsIypN81aXB6RtMXwUQTUkzmpNCCUCyA3T2tne7KU4CN6ykmHhrAD8r1kpcJqjiLx0-FPh6aNRfp9s3mWM4es_CmGbwMpcU6LUFRG3F7pOmQMTq3sFnQe0RBizIhEFSqKycb8LM33ku3Nk6zBivBn6phsApid99FxJdqHGX8h5l6BD389Bq1HlZ4slkXfM9_invl5RhFOrhojgCps1KTWnG50QeN7Ifo2YLsgvtFcOUywxkdj_mPMWtS8doR8uyZ1X5nUGfNNR3PKJcqViDzgCI4mMhN6FN0tYM7MTvqzAnoQheKj6Ozg6SPi9e_qTQNsyIcx20Dky7rYfiCV3e8MbyIGmHRZ9PvALMtajcsIWnfp-H=w100-h85-no?authuser=0" alt="img">
+                                </div>
+                                <div class="media-body">
+                                    <div class="details">
+                                        
+                                        <h6 class="title"><a target="_blank" href="https://www.nsctotal.com.br/noticias/cdl-diz-que-vendedores-ambulantes-sao-concorrencia-desleal-para-o-comercio-de-joinville">CDL diz que vendedores ambulantes são "concorrência desleal" </a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-post-list-wrap">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img src="https://lh3.googleusercontent.com/m2UNIrHhH363Dlp4PKzaSel9nUgJ-ykmlHqLimFSqKzNEQabZTDM5OwFo-eD1ivKzjBa9wtRTn1xEcc7-ksQCeYRAYGT0uIX5EuAoRb_1aSgb5Lmpzh34cRkODadYESXPxE8RSqyV3meXnkPRs-jYJ2jfwLNNW8uoCbiRSdMDUFlWkBk_41YMlVxdzFhiZzAIeeG930UgOrrlgs_SOaApS1I_iLtVb853UDF1JmqHpQIRpCk6EsQg1SiJ0Cf7h8WTFQKWwknD07Cz1r4q3s-USErS4fp42Lg-PxHdL12CKosxWjybEv9akXPrizDR5qhBCezuDjTSHltWeFEAIRcKWaIa4C2zRWURGD2L8fHdEx2q-KRLGUyvsDXXRGnfPo_gQTSvn8R3XtEyJDmErfeY5xv8L6EavGflJNbit2pYoA9yP36ItGMxPvHmhkZ8AKGIc0IRxyDOgbh7mC1Gj7SfY1YSvSqkuH2sCTsu4qZcCDR--Ci8KgH0QNEkqxvt1lkGDxMdJGoeUJ41_pSeGc01pzB993qESyzjWqohXhQmpLiJ7m0MWqz3MkKvAPa52LuvonAYD04Op78FihD6QaJZG1WjrU9e92P-UERDeE6e7GUBUfWJr6ZYJq7fpIcOr9tWmSpCjzCp0tu4p16oMT4kqAycVvIRhpdhRE6vrNbGCcWQBeymTwybTwKK8LuxKLD3VFUrLzZWz7SSTQU9wjqZH_I=w100-h85-no?authuser=0" alt="img">
+                                </div>
+                                <div class="media-body">
+                                    <div class="details">
+                                        
+                                        <h6 class="title"><a target="_blank" href="https://www.opopular.com.br/noticias/opiniao/editorial-1.145048/é-alívio-mas-não-o-fim-1.2332063">É alívio, mas não o fim - O Popular </a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>Copyright ©2021 Rocket</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    <!-- all plugins here -->
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
